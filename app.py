@@ -11,8 +11,8 @@ app = Flask(__name__)
 load_dotenv()
 
 # Your Amazon credentials
-ACCESS_KEY = os.getenv('AMAZON_ACCESS_KEY')
-SECRET_KEY = os.getenv('AMAZON_SECRET_KEY')
+ACCESS_KEY = os.getenv('ACCESS_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
 PARTNER_TAG = "pennyvyse-21"
 HOST = "webservices.amazon.in"
 REGION = "eu-west-1"
