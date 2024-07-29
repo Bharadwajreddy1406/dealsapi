@@ -5,8 +5,10 @@ from paapi5_python_sdk.models.search_items_request import SearchItemsRequest
 from paapi5_python_sdk.models.search_items_resource import SearchItemsResource
 from paapi5_python_sdk.rest import ApiException
 import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
+load_dotenv()
 
 # Your Amazon credentials
 ACCESS_KEY = os.getenv('AMAZON_ACCESS_KEY')
